@@ -19,7 +19,7 @@ export default (express, bodyParser, createReadStream, writeFileSync, crypto, ht
     .use(bodyParser.json())
 
     .all('/login/', (req, res) => {
-        res.end("kozigor");
+        res.end("yaazzik");
     })
 
     .all('/code/', (req, res) => {
@@ -121,7 +121,7 @@ export default (express, bodyParser, createReadStream, writeFileSync, crypto, ht
     })
 
     .all('/*', (req, res) => {
-        res.end("kozigor");
+        res.end("yaazzik");
     })
 
     return app;
